@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Porfolio</title>
+</head>
+<body>
+    this is the portfolio home page
+    <ul>
+        {% for project in projects %}
+        <li>
+            <a href="">
+                {{ project.title }}
+            </a>
+        </li>
+    {% endfor %}
+    </ul>
+
+
+</body>
+</html>
